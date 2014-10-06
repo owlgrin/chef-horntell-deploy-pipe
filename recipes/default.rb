@@ -11,5 +11,5 @@ git '/home/ubuntu/apps/pipe/config' do
 end
 
 execute 'install node packages' do
-	command 'cd /home/ubuntu/apps/pipe;npm update;cd;'
+	command 'npm update /home/ubuntu/apps/pipe'
 end
