@@ -10,6 +10,6 @@ git '/home/ubuntu/apps/pipe/config' do
 	action :sync
 end
 
-execute 'install node packages' do
-	command 'npm update /home/ubuntu/apps/pipe'
+execute 'install/update node packages' do
+	command '(cd /home/ubuntu/apps/pipe && npm update && cd)'
 end
