@@ -1,10 +1,10 @@
 # deploy-pipe-cookbook
 
-TODO: Enter the cookbook description here.
+Deploys the Horntell Pipe on production servers.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Ubuntu.
 
 ## Attributes
 
