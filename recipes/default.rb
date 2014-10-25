@@ -11,5 +11,6 @@ git '/home/ubuntu/apps/pipe/config' do
 end
 
 execute 'install/update node packages' do
-	command '(cd /home/ubuntu/apps/pipe && npm update && cd)'
+	command 'npm install -g node-gyp'
+	command 'cd /home/ubuntu/apps/pipe && npm update && cd'
 end
