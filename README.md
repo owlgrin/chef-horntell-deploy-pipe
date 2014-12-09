@@ -4,7 +4,7 @@ Deploys the Horntell Pipe on production servers.
 
 ## Supported Platforms
 
-Ubuntu.
+Ubuntu 14.04.
 
 ## Attributes
 
