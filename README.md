@@ -39,4 +39,4 @@ Include `deploy-pipe` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Mohit Mamoria (<YOUR_EMAIL>)
