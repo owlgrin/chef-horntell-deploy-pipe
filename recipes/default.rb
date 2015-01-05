@@ -4,6 +4,7 @@ git '/home/ubuntu/apps/pipe' do
 	action :sync
 end
 
+# production configs are pulled from a separate private repo
 git '/home/ubuntu/apps/pipe/config' do
 	repository 'gitlab@gitlab.owlgrin.com:horntell/configs.git'
 	revision 'pipe'
