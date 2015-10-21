@@ -13,5 +13,5 @@ end
 
 # cd's into the pipe directory, updates and comes back HOME
 execute 'install/update node packages' do
-	command 'cd /home/ubuntu/apps/pipe && npm update && cd'
+	command 'cd /home/ubuntu/apps/pipe && npm install && cd'
 end
